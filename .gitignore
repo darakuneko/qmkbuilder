@@ -6,3 +6,4 @@ bundle.js
 local.json
 
 .idea
+package-lock.json

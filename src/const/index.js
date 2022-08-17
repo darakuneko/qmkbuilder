@@ -1,6 +1,5 @@
 const Keycodes = require('./keycodes');
 const Presets = require('./presets');
-const Local = require('./local');
 
 const C = {
 
@@ -101,8 +100,6 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
 	// Presets.
 	PRESETS: Presets,
 
-	// Local settings.
-	LOCAL: Local
 
 };
 
